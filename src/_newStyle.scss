@@ -7,8 +7,20 @@
     border-radius: 16px;
 }
 
+main{
+    background-color: whitesmoke;
+}
+
+footer{
+    background-color: black;
+}
+
 h3{
     font-size: 16pt;
+}
+
+.row>*{
+    padding: 0 !important;
 }
 
 #input{
@@ -45,3 +57,41 @@ h3{
 .container{
     padding: 0 !important;
 }
+
+.left,
+.right{
+    height: 240px;
+}
+
+.card{
+    width: 112px !important;
+    height: 156px !important;
+}
+
+.card:first-child{
+    margin-left: 32px;
+}
+
+.card:last-child{
+    margin-right: 32px;
+}
+
+
+.card:nth-child(2){
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.card-header{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.min-card{
+    color: blue !important;
+}
+
+.max-card{
+    color: red !important;
+}
+
